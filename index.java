@@ -98,18 +98,18 @@
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-12 form-group">
-                                                    <label class="col-md-3" id="ddltype">Status Dokumen</label>
-                                                    <div class="col-md-8 input-group">
-                                                        <select class="select-findStdField" style="width: 300px;" name="signtobetype" id="ddlDocStatus">
-                                                            <option value="">ALL</option>
-                                                            <c:forEach var="docstatus" items="${listDocStatus}">
-                                                                <option value="${docstatus.applicationMstStandardFieldDetailPK.stdCode}"
-                                                                        <c:if test="${docStatus==docstatus.applicationMstStandardFieldDetailPK.stdCode}">selected="true"</c:if>>${docstatus.stdName}</option>
-                                                            </c:forEach>
-                                                        </select>
-                                                    </div>
-                                                </div>
+                                                // <div class="col-md-12 form-group">
+                                                //     <label class="col-md-3" id="ddltype">Status Dokumen</label>
+                                                //     <div class="col-md-8 input-group">
+                                                //         <select class="select-findStdField" style="width: 300px;" name="signtobetype" id="ddlDocStatus">
+                                                //             <option value="">ALL</option>
+                                                //             <c:forEach var="docstatus" items="${listDocStatus}">
+                                                //                 <option value="${docstatus.applicationMstStandardFieldDetailPK.stdCode}"
+                                                //                         <c:if test="${docStatus==docstatus.applicationMstStandardFieldDetailPK.stdCode}">selected="true"</c:if>>${docstatus.stdName}</option>
+                                                //             </c:forEach>
+                                                //         </select>
+                                                //     </div>
+                                                // </div>
                                                 <div class="col-md-12 form-group" style="margin-bottom: 0;">
                                                     <label class="col-md-3 control-label"></label>
                                                     <div class="col-md-8 input-group">
